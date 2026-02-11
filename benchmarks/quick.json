@@ -1,0 +1,102 @@
+[
+  {
+    "id": "q1",
+    "prompt": "Write a Python function to reverse a list #0",
+    "expected_category": "code"
+  },
+  {
+    "id": "q2",
+    "prompt": "Explain why the sky appears blue #1",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "q3",
+    "prompt": "Summarize this paragraph in a formal tone #2",
+    "expected_category": "writing"
+  },
+  {
+    "id": "q4",
+    "prompt": "Analyze this CSV and find outliers #3",
+    "expected_category": "data"
+  },
+  {
+    "id": "q5",
+    "prompt": "How are you today? #4",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "q6",
+    "prompt": "Write a Python function to reverse a list #5",
+    "expected_category": "code"
+  },
+  {
+    "id": "q7",
+    "prompt": "Explain why the sky appears blue #6",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "q8",
+    "prompt": "Summarize this paragraph in a formal tone #7",
+    "expected_category": "writing"
+  },
+  {
+    "id": "q9",
+    "prompt": "Analyze this CSV and find outliers #8",
+    "expected_category": "data"
+  },
+  {
+    "id": "q10",
+    "prompt": "How are you today? #9",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "q11",
+    "prompt": "Write a Python function to reverse a list #10",
+    "expected_category": "code"
+  },
+  {
+    "id": "q12",
+    "prompt": "Explain why the sky appears blue #11",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "q13",
+    "prompt": "Summarize this paragraph in a formal tone #12",
+    "expected_category": "writing"
+  },
+  {
+    "id": "q14",
+    "prompt": "Analyze this CSV and find outliers #13",
+    "expected_category": "data"
+  },
+  {
+    "id": "q15",
+    "prompt": "How are you today? #14",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "q16",
+    "prompt": "Write a Python function to reverse a list #15",
+    "expected_category": "code"
+  },
+  {
+    "id": "q17",
+    "prompt": "Explain why the sky appears blue #16",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "q18",
+    "prompt": "Summarize this paragraph in a formal tone #17",
+    "expected_category": "writing"
+  },
+  {
+    "id": "q19",
+    "prompt": "Analyze this CSV and find outliers #18",
+    "expected_category": "data"
+  },
+  {
+    "id": "q20",
+    "prompt": "How are you today? #19",
+    "expected_category": "chat/general"
+  }
+]

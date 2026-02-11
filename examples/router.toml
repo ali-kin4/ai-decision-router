@@ -1,0 +1,37 @@
+default_adapter = "mock"
+enable_cache = true
+
+[budgets]
+max_cost_usd = 0.03
+max_latency_ms = 1500
+
+[policy]
+name = "score"
+quality_weight = 0.65
+cost_weight = 0.2
+latency_weight = 0.15
+
+[trace]
+enabled = true
+output_path = "traces/router_traces.jsonl"
+
+[[model_registry]]
+name = "mock-fast"
+provider = "mock"
+expected_quality = 0.68
+expected_cost_per_1k_tokens = 0.001
+expected_latency_ms = 180
+
+[[model_registry]]
+name = "mock-balanced"
+provider = "mock"
+expected_quality = 0.80
+expected_cost_per_1k_tokens = 0.003
+expected_latency_ms = 500
+
+[[model_registry]]
+name = "mock-premium"
+provider = "mock"
+expected_quality = 0.92
+expected_cost_per_1k_tokens = 0.009
+expected_latency_ms = 950

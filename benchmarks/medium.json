@@ -1,0 +1,302 @@
+[
+  {
+    "id": "m1",
+    "prompt": "Write a Python function to reverse a list case 0",
+    "expected_category": "code"
+  },
+  {
+    "id": "m2",
+    "prompt": "Explain why the sky appears blue case 1",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m3",
+    "prompt": "Summarize this paragraph in a formal tone case 2",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m4",
+    "prompt": "Analyze this CSV and find outliers case 3",
+    "expected_category": "data"
+  },
+  {
+    "id": "m5",
+    "prompt": "How are you today? case 4",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m6",
+    "prompt": "Write a Python function to reverse a list case 5",
+    "expected_category": "code"
+  },
+  {
+    "id": "m7",
+    "prompt": "Explain why the sky appears blue case 6",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m8",
+    "prompt": "Summarize this paragraph in a formal tone case 7",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m9",
+    "prompt": "Analyze this CSV and find outliers case 8",
+    "expected_category": "data"
+  },
+  {
+    "id": "m10",
+    "prompt": "How are you today? case 9",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m11",
+    "prompt": "Write a Python function to reverse a list case 10",
+    "expected_category": "code"
+  },
+  {
+    "id": "m12",
+    "prompt": "Explain why the sky appears blue case 11",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m13",
+    "prompt": "Summarize this paragraph in a formal tone case 12",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m14",
+    "prompt": "Analyze this CSV and find outliers case 13",
+    "expected_category": "data"
+  },
+  {
+    "id": "m15",
+    "prompt": "How are you today? case 14",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m16",
+    "prompt": "Write a Python function to reverse a list case 15",
+    "expected_category": "code"
+  },
+  {
+    "id": "m17",
+    "prompt": "Explain why the sky appears blue case 16",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m18",
+    "prompt": "Summarize this paragraph in a formal tone case 17",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m19",
+    "prompt": "Analyze this CSV and find outliers case 18",
+    "expected_category": "data"
+  },
+  {
+    "id": "m20",
+    "prompt": "How are you today? case 19",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m21",
+    "prompt": "Write a Python function to reverse a list case 20",
+    "expected_category": "code"
+  },
+  {
+    "id": "m22",
+    "prompt": "Explain why the sky appears blue case 21",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m23",
+    "prompt": "Summarize this paragraph in a formal tone case 22",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m24",
+    "prompt": "Analyze this CSV and find outliers case 23",
+    "expected_category": "data"
+  },
+  {
+    "id": "m25",
+    "prompt": "How are you today? case 24",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m26",
+    "prompt": "Write a Python function to reverse a list case 25",
+    "expected_category": "code"
+  },
+  {
+    "id": "m27",
+    "prompt": "Explain why the sky appears blue case 26",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m28",
+    "prompt": "Summarize this paragraph in a formal tone case 27",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m29",
+    "prompt": "Analyze this CSV and find outliers case 28",
+    "expected_category": "data"
+  },
+  {
+    "id": "m30",
+    "prompt": "How are you today? case 29",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m31",
+    "prompt": "Write a Python function to reverse a list case 30",
+    "expected_category": "code"
+  },
+  {
+    "id": "m32",
+    "prompt": "Explain why the sky appears blue case 31",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m33",
+    "prompt": "Summarize this paragraph in a formal tone case 32",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m34",
+    "prompt": "Analyze this CSV and find outliers case 33",
+    "expected_category": "data"
+  },
+  {
+    "id": "m35",
+    "prompt": "How are you today? case 34",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m36",
+    "prompt": "Write a Python function to reverse a list case 35",
+    "expected_category": "code"
+  },
+  {
+    "id": "m37",
+    "prompt": "Explain why the sky appears blue case 36",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m38",
+    "prompt": "Summarize this paragraph in a formal tone case 37",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m39",
+    "prompt": "Analyze this CSV and find outliers case 38",
+    "expected_category": "data"
+  },
+  {
+    "id": "m40",
+    "prompt": "How are you today? case 39",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m41",
+    "prompt": "Write a Python function to reverse a list case 40",
+    "expected_category": "code"
+  },
+  {
+    "id": "m42",
+    "prompt": "Explain why the sky appears blue case 41",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m43",
+    "prompt": "Summarize this paragraph in a formal tone case 42",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m44",
+    "prompt": "Analyze this CSV and find outliers case 43",
+    "expected_category": "data"
+  },
+  {
+    "id": "m45",
+    "prompt": "How are you today? case 44",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m46",
+    "prompt": "Write a Python function to reverse a list case 45",
+    "expected_category": "code"
+  },
+  {
+    "id": "m47",
+    "prompt": "Explain why the sky appears blue case 46",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m48",
+    "prompt": "Summarize this paragraph in a formal tone case 47",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m49",
+    "prompt": "Analyze this CSV and find outliers case 48",
+    "expected_category": "data"
+  },
+  {
+    "id": "m50",
+    "prompt": "How are you today? case 49",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m51",
+    "prompt": "Write a Python function to reverse a list case 50",
+    "expected_category": "code"
+  },
+  {
+    "id": "m52",
+    "prompt": "Explain why the sky appears blue case 51",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m53",
+    "prompt": "Summarize this paragraph in a formal tone case 52",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m54",
+    "prompt": "Analyze this CSV and find outliers case 53",
+    "expected_category": "data"
+  },
+  {
+    "id": "m55",
+    "prompt": "How are you today? case 54",
+    "expected_category": "chat/general"
+  },
+  {
+    "id": "m56",
+    "prompt": "Write a Python function to reverse a list case 55",
+    "expected_category": "code"
+  },
+  {
+    "id": "m57",
+    "prompt": "Explain why the sky appears blue case 56",
+    "expected_category": "reasoning"
+  },
+  {
+    "id": "m58",
+    "prompt": "Summarize this paragraph in a formal tone case 57",
+    "expected_category": "writing"
+  },
+  {
+    "id": "m59",
+    "prompt": "Analyze this CSV and find outliers case 58",
+    "expected_category": "data"
+  },
+  {
+    "id": "m60",
+    "prompt": "How are you today? case 59",
+    "expected_category": "chat/general"
+  }
+]
