@@ -1,5 +1,6 @@
-from ai_decision_router.cli import app
 from typer.testing import CliRunner
+
+from ai_decision_router.cli import app
 
 runner = CliRunner()
 

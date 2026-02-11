@@ -33,19 +33,17 @@ def run_benchmark(router: DecisionRouter, suite: str) -> dict:
         decisions[result["chosen_model"]] += 1
         costs.append(result["est_cost"])
         latencies.append(result["latency_ms"])
-        quality_proxy.append(
-            next(m.expected_quality for m in router.models if m.name == result["chosen_model"])
-        )
+        quality_proxy.append(router.models[result["chosen_model"]].expected_quality)
 
     report = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "suite": suite,
         "num_prompts": len(prompts),
-        "classifier_accuracy": expected_matches / len(prompts),
+        "classifier_accuracy": expected_matches / len(prompts) if prompts else 0.0,
         "policy_distribution": dict(decisions),
-        "avg_est_cost": sum(costs) / len(costs),
-        "avg_latency_ms": sum(latencies) / len(latencies),
-        "avg_quality_proxy": sum(quality_proxy) / len(quality_proxy),
+        "avg_est_cost": sum(costs) / len(costs) if costs else 0.0,
+        "avg_latency_ms": sum(latencies) / len(latencies) if latencies else 0.0,
+        "avg_quality_proxy": sum(quality_proxy) / len(quality_proxy) if quality_proxy else 0.0,
     }
     _write_reports(report, suite)
     return report

@@ -1,7 +1,4 @@
-try:
-    import tomllib
-except ModuleNotFoundError:  # pragma: no cover
-    import tomli as tomllib
+import tomllib
 from pathlib import Path
 
 from pydantic import BaseModel, Field

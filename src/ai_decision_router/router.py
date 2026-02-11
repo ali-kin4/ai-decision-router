@@ -13,8 +13,8 @@ from .tracing import TraceLogger
 class DecisionRouter:
     def __init__(self, config: RouterConfig | None = None) -> None:
         self.config = config or default_config()
-        self.models = [
-            ModelSpec(
+        self.models: dict[str, ModelSpec] = {
+            m.name: ModelSpec(
                 name=m.name,
                 provider=m.provider,
                 expected_quality=m.expected_quality,
@@ -23,7 +23,7 @@ class DecisionRouter:
                 max_context_tokens=m.max_context_tokens,
             )
             for m in self.config.model_registry
-        ]
+        }
         self.trace = TraceLogger(self.config.trace.output_path, enabled=self.config.trace.enabled)
         self._cache: dict[str, dict] = {}
 
@@ -47,7 +47,7 @@ class DecisionRouter:
         return self._policy().choose(
             prompt=prompt,
             task_type=task_type,
-            models=self.models,
+            models=list(self.models.values()),
             budget_cost=self.config.budgets.max_cost_usd,
             budget_latency=self.config.budgets.max_latency_ms,
         )
@@ -59,7 +59,7 @@ class DecisionRouter:
             return cached
 
         decision = self.explain(prompt)
-        model = next(m for m in self.models if m.name == decision.model_name)
+        model = self.models[decision.model_name]
         adapter = self._adapter(model.provider)
         response = adapter.generate(prompt, model)
 

@@ -20,4 +20,4 @@ def test_score_policy_selects_viable_model() -> None:
     decision = policy.choose(
         "General question", "chat/general", MODELS, budget_cost=0.02, budget_latency=700
     )
-    assert decision.model_name in {"fast", "balanced"}
+    assert decision.model_name == "balanced"
