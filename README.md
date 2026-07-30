@@ -1,8 +1,8 @@
-# ai-decision-router
+# AI Decision Router
 
-[![CI](https://github.com/your-org/ai-decision-router/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/ai-decision-router/actions/workflows/ci.yml)
+[![CI](https://github.com/ali-kin4/ai-decision-router/actions/workflows/ci.yml/badge.svg)](https://github.com/ali-kin4/ai-decision-router/actions/workflows/ci.yml)
 
-A production-ready Python framework that routes prompts to the best LLM based on **quality, latency, and cost constraints**.
+An offline-testable Python framework for routing prompts across language models under explicit **quality, latency, and cost constraints**.
 
 ## Quickstart
 
